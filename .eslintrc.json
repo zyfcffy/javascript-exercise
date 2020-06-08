@@ -1,0 +1,23 @@
+{
+  "extends": ["airbnb", "prettier", "plugin:jest/recommended"],
+  "plugins": ["prettier", "jest"],
+  "rules": {
+    "prettier/prettier": ["error", {"singleQuota": true}],
+    "jest/no-disabled-tests": "error",
+    "jest/no-identical-title": "error",
+    "jest/valid-expect": "error",
+    "jest/expect-expect": "error",
+    "jest/valid-describe": "error",
+    "jest/no-focused-tests": "warn",
+    "class-methods-use-this": "warn",
+    "no-console": "off"
+  },
+  "env": {
+    "jest": true,
+    "node": true,
+    "browser": true
+  },
+  "globals": {
+    "document": true
+  }
+}

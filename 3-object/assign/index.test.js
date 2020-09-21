@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/no-named-as-default
 import addSerialNumber from './index';
 
 test('合并源对象并添加新的编号', () => {

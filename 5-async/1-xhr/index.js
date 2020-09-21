@@ -9,6 +9,7 @@ function fetchData(url, successCallback, errorCallback) {
       errorCallback(xhr.statusText);
     }
   };
+  xhr.send();
   // end -->
 }
 
